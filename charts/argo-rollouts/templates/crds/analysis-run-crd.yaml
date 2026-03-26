@@ -14,8 +14,7 @@ metadata:
     app.kubernetes.io/name: argo-rollouts
     app.kubernetes.io/part-of: argo-rollouts
   name: analysisruns.argoproj.io
-spec:
-   group: argoproj.io
+  group: argoproj.io
   names:
     kind: AnalysisRun
     listKind: AnalysisRunList
